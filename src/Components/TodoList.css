@@ -1,0 +1,70 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  background-color: rgb(199, 155, 241);
+}
+
+.categoryTodos {
+  display: flex;
+  margin-left: 30%;
+}
+
+.categoryButton {
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.categoryButton:hover {
+  background-color: greenyellow;
+}
+
+.job,
+.home,
+.hobbie {
+  background-color: greenyellow;
+}
+
+.inputCase {
+  display: flex;
+  margin-left: 30%;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.todoList {
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todoCase {
+  height: 25px;
+  width: auto;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.listItem {
+  margin-left: 10px;
+  font-size: large;
+}
+
+.todoCompleted {
+  text-decoration: line-through;
+}
